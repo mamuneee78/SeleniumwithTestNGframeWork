@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<test name="Regression">
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ui_validation.HowToGroup_TestCases" />
+			<class name="ui_validation.FirstTestNG_login" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

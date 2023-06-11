@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-27T15:05:39 ALMT" name="Default suite" finished-at="2023-05-27T15:07:11 ALMT" duration-ms="92320">
+    <groups>
+    </groups>
+    <test started-at="2023-05-27T15:05:39 ALMT" name="Default test" finished-at="2023-05-27T15:07:11 ALMT" duration-ms="92320">
+      <class name="ui_validation.DataProviderLiveTest">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui_validation.DataProviderLiveTest@5119fb47]" started-at="2023-05-27T15:05:39 ALMT" name="test1" data-provider="dataSet1" finished-at="2023-05-27T15:06:17 ALMT" duration-ms="38576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui_validation.DataProviderLiveTest@5119fb47]" started-at="2023-05-27T15:06:17 ALMT" name="test1" data-provider="dataSet1" finished-at="2023-05-27T15:06:36 ALMT" duration-ms="19086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui_validation.DataProviderLiveTest@5119fb47]" started-at="2023-05-27T15:06:36 ALMT" name="test1" data-provider="dataSet1" finished-at="2023-05-27T15:06:50 ALMT" duration-ms="14000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui_validation.DataProviderLiveTest@5119fb47]" started-at="2023-05-27T15:06:50 ALMT" name="test1" data-provider="dataSet1" finished-at="2023-05-27T15:07:11 ALMT" duration-ms="20588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- ui_validation.DataProviderLiveTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
